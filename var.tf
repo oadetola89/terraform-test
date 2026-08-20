@@ -72,3 +72,13 @@ variable "security_groups" {
   description = "Instance security groups"
   type = list(string)
 }
+
+variable "az_name" {
+  description = "availability zone"
+  type = string
+}
+
+variable "datavol_size" {
+  description = "Size of the data volume"
+  type = number
+}
